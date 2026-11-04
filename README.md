@@ -2,13 +2,16 @@
 
 > 面向高中物理教师的习题生成、智能体自动校验与人工审核辅助工具
 
-**当前状态：** 处于需求与设计期，已整理问题定义、功能规格、用户故事与验收标准、课标资料及高阶思维能力调研；系统尚未开发完成，暂无可运行版本或正式发布日期。
+**当前状态：** 处于需求与设计期，已整理需求与课标研究，补充系统设计技术方案、沟通管理计划及风险管理计划；已有前端交互原型，完整系统尚未开发完成。
 
 | 快速入口 | 内容 |
 | --- | --- |
 | [5W1H 报告与产品描述](docs/requirements/problem_definition.md) | 问题边界、目标用户、拟议方案和验证指标 |
 | [功能规格说明书](docs/requirements/functional%2Bnonfunctional_spec.md) | 系统角色、功能需求、业务流程与验收标准 |
 | [用户故事与验收标准](docs/requirements/user_stories.md) | 教师与管理员的使用目标、正常流程及异常场景 |
+| [系统设计技术方案](docs/software/architecture.md) | 技术选型、分层架构、智能体编排与开发计划 |
+| [沟通管理计划](docs/mgmt/communication_mgmt_plan.md) | 协作职责、沟通安排与变更流程 |
+| [风险管理计划](docs/mgmt/risk_mgmt_plan.md) | 风险识别、优先级评估、应对与跟踪 |
 | [课标资料与研究解读](#课标资料与研究解读) | 全国课程标准、地方教学文件及对应分析报告 |
 | [高中物理高阶思维能力调研](docs/requirements/Curriculum%20Standard/Higher-Order%20Thinking%20Skills%20in%20High%20School%20Physics.md) | 六项能力标签、成立判据、命题示例与审核边界 |
 | [SWE-agent 文献调研报告](docs/algorithm/research.md) | 核心方法、实验结果、研究局限及对 PhyQGen 的设计启发 |
@@ -77,12 +80,12 @@ PhyQGen/
 │  │     └─ Interpretations/               # 四份对应的 Markdown 分析报告
 │  ├─ algorithm/                           # 算法研究
 │  │  └─ research.md                       # SWE-agent 文献调研与项目启发
-│  ├─ software/                            # 软件设计
-│  │  ├─ prototype/                        # 原型设计预留
-│  │  └─ architecture.md                   # 系统架构，待编写
+│  ├─ software/                            # 软件设计与交互原型
+│  │  ├─ prototype/                        # 前端交互原型（本地模拟）
+│  │  └─ architecture.md                   # 系统设计技术方案
 │  ├─ mgmt/                                # 项目管理
-│  │  ├─ communication_mgmt_plan.md         # 沟通管理计划，待编写
-│  │  └─ risk_mgmt_plan.md                  # 风险管理计划，待编写
+│  │  ├─ communication_mgmt_plan.md         # 沟通管理计划
+│  │  └─ risk_mgmt_plan.md                  # 风险管理计划
 │  └─ retrospection/                       # 复盘总结预留
 ├─ code/
 │  ├─ backend/                             # 后端服务预留，尚未实现
@@ -93,4 +96,4 @@ PhyQGen/
    └─ integration/                         # 集成测试预留
 ```
 
-预留空目录通过 `.gitkeep` 保留在 Git 中；标注“待编写”的 Markdown 文件目前为空。
+预留空目录通过 `.gitkeep` 保留在 Git 中。
