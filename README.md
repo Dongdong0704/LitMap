@@ -30,6 +30,10 @@ PhyQGen 计划让教师输入年级、知识点、题型、认知目标和目标
 
 个人题库计划支持关键词检索，并按题型、知识点、认知目标、高阶思维能力及教师确认状态筛选；已确认的单题或多道题可导出为 TXT。具体功能见[功能规格说明书](docs/requirements/functional%2Bnonfunctional_spec.md)，使用场景与验收条件见[用户故事](docs/requirements/user_stories.md)。
 
+## 系统设计与项目管理
+
+[系统设计技术方案](docs/software/architecture.md)说明技术选型、分层架构与智能体协作流程；[沟通管理计划](docs/mgmt/communication_mgmt_plan.md)明确团队职责、沟通安排与变更流程；[风险管理计划](docs/mgmt/risk_mgmt_plan.md)梳理主要风险、评估规则及应对措施，为后续开发与协作提供依据。
+
 ## 课标资料与研究解读
 
 已收录全国课程标准及上海、江苏、浙江的教学文件与解读，分析知识范围、考查深度、思维要求和知识形成过程，为后续出题约束、知识库建设与习题质量评价提供参考。
